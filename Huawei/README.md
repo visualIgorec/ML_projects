@@ -1,12 +1,10 @@
-# CreditScore
-Тестовый проект по кредитному корингу
+# Multi Regreesion Task
+Построение модели машинного обучения для предсказания величин QW, DP 
 
 ## Description
-Задание от HomeCreditBank на проверку изменчивости целевого признака
+Решение задачи многомерной регрессии методом Gradient Boosting (CatBoost) от Huawei
 
 ## Result
-- Изменение признаков со временем
-![alt text](https://github.com/visualIgorec/CreditScore/blob/new/plots/AMT_INCOME_TOTAL.PNG)
+- Задействован алгоритм Gradient Boosting (CatBoost)
+- Результаты сформированы и представлены в презентации 'task.pdf'
 
-## Reference
-- Ссылка на dataset https://disk.yandex.ru/d/iDq8vTwtuXXWFA. Необходимо закинуть в папку: HomeCreditBank/data

@@ -7,6 +7,7 @@ if __name__ == "__main__":
         path_to_file = './merged_df.csv',
         loaded_llm = True
     )
+    # EDA 
     model.eda()
     service_features, target_features = model.build_dataset()
     with open('./service_features.pickle', 'wb') as file:
@@ -14,7 +15,7 @@ if __name__ == "__main__":
     with open('./target_features.pickle', 'wb') as file:
         pickle.dump(target_features, file)
 
-    # покажем название услуги в клинике
+    # построим предсказание
     TOP_K = 5
     desc_service = [i[0] for i in service_features]
     example = [
